@@ -16,8 +16,8 @@ In the resources folder you will find the datasheet for the IN-13 as well as the
 ### Notes
 
 * The SDA pad is right next to the +150V one so watch out as to not accidentally short them while soldering.
-* Although the MCP4706's datasheet says that there are eight available addresses, it seems that most electronic suppliers only stock the first four. In my case I had to use two I2C buses to drive as many tubes as I wanted to.
-* You need some sort of frame to hold the tubes in place. I recommend the use of large zip ties at the base to keep them straight.
+* Although the MCP4706's datasheet says that there are eight available addresses, it seems that most electronic suppliers only stock the first four. In my case I had to use two I2C buses to drive as many tubes as I wanted to (and had to do two chains of four tubes).
+* You need some sort of frame to hold the tubes in place. I recommend the use of large zip ties near the base to keep them straight.
 
 ## Author
 
@@ -25,7 +25,7 @@ Zachary Laurin
 
 ## Version History
 
-* 0.1
+* 1.0.0
     * Initial Release
 
 ## License
